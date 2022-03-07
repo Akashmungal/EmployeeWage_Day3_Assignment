@@ -5,7 +5,7 @@ import org.w3c.dom.ls.LSOutput;
 import javax.swing.*;
 
 public class EmployeeWage {
-    
+
     public static final int WAGE_PER_HR = 20;
     public static final int IS_FULL_TIME = 2;
     public static final int IS_PART_TIME = 1;
@@ -43,7 +43,8 @@ public class EmployeeWage {
             totalEmpHrs = totalEmpHrs + empHrs;
         }
 
-            wageForMonth += totalEmpHrs * WAGE_PER_HR;
-            System.out.println("Employee wage in a month " + wageForMonth);
+        wageForMonth += totalEmpHrs * WAGE_PER_HR;
+        System.out.println("Employee wage in a month " + wageForMonth);
     }
 }
+
